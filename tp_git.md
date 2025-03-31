@@ -12,8 +12,11 @@ git add .             # Ajoute tous les fichiers au staging
 git commit -m "Initial commit"  # Crée un premier commit
 ```
 
+```bash 
+git remote add origin https://github.com/<votre-utilisateur>/<nom-du-repository>.git # Remplacez par votre URL GitHub
+```
 
-git remote add origin https://github.com/<votre-utilisateur>/<nom-du-repository>.git  # Remplacez par votre URL GitHub
+
 git branch -M main        # Renomme la branche principale en `main` si nécessaire
 git push -u origin main   # Pousse le contenu vers GitHub
 
@@ -30,19 +33,19 @@ Renommer une branche : git branch -m <ancien-nom> <nouveau-nom>
 4. Comment modifier le remote en cas d’erreur ?
 Si vous avez ajouté une mauvaise URL pour le remote, vous pouvez la modifier avec les commandes suivantes :
 
-bash
+```bash
 git remote set-url origin https://github.com/<votre-utilisateur>/<nouvelle-url>.git  # Remplace l'URL existante
-
+```
 5. Comment vérifier le remote ?
 Utilisez la commande suivante pour afficher les remotes configurés et leurs URLs :
-
-bash
+```bash
 git remote -v
-
+```
 6. Supprimer le repository
 Supprimer le repository local :
 Pour supprimer le dossier local, exécutez simplement :
 
-bash
+```bash
 cd ..          # Revenez au dossier parent
 rm -rf test-repo  # Supprimez le dossier et son contenu
+```
