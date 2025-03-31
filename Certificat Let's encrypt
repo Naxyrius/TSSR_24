@@ -23,9 +23,9 @@ Certbot peut automatiser la génération et l'installation des certificats SSL p
 
 1. **Exécuter Certbot** :
    Utilisez la commande suivante pour générer et installer automatiquement le certificat :
-   sudo certbot --apache
+   ```sudo certbot --apache```
    ou 
-   sudo certbot --nginx
+   ```sudo certbot --nginx```
    
 2. **Suivre les instructions** :
 - Certbot vous demandera de sélectionner les domaines à sécuriser.
