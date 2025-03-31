@@ -8,6 +8,9 @@
         },
         {
             "path": "../thecastleinthecloudsinthesky"
+        },
+        {
+            "path": "../tssr-linux-debian-post-install"
         }
     ]
 }
