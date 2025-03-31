@@ -6,7 +6,7 @@ Dans ce tutoriel, nous allons explorer deux méthodes pour déployer un certific
 
 ---
 
-## Prérequis
+ Prérequis
 
 - Un serveur Linux (Ubuntu recommandé) avec accès root ou sudoers.
 - Un domaine configuré et pointant vers votre serveur.
@@ -15,7 +15,7 @@ Dans ce tutoriel, nous allons explorer deux méthodes pour déployer un certific
 
 ---
 
-## Méthode 1 : Déploiement Automatique
+ Méthode 1 : Déploiement Automatique
 
 Certbot peut automatiser la génération et l'installation des certificats SSL pour des serveurs web comme Apache ou Nginx.
 
