@@ -11,3 +11,5 @@ Utilisez la commande suivante pour générer et installer automatiquement le cer
    ```sudo certbot --nginx```
 
    12test
+
+   <button onclick="navigator.clipboard.writeText('sudo certbot --apache OU sudo certbot --nginx')">Copier</button>
