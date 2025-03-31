@@ -1,6 +1,6 @@
 # Tuto Certbot
 Installation : 
-
+```sudo apt install certbot```
 
 
 Méthode 1 : Déploiement Automatique
@@ -10,6 +10,4 @@ Utilisez la commande suivante pour générer et installer automatiquement le cer
    ou 
    ```sudo certbot --nginx```
 
-   12test
-
-   <button onclick="navigator.clipboard.writeText('sudo certbot --apache OU sudo certbot --nginx')">Copier</button>
+   
