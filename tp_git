@@ -1,0 +1,15 @@
+Détail du TP Git
+
+1- Initier un nouveau repository local Git de test, pas besoin de le garder, en local via la ligne de commande git
+Dans le terminal vscode (plus rapide pour aller direct dans le repo) ou depuis un terminal (/!\ a bien choisir son chemin pour le repo)
+
+``` Commandes : 
+mkdir test-repo       # Crée un nouveau dossier pour le repository
+cd test-repo          # Accédez au dossier
+git init              # Initialise un repository Git local
+echo "Hello World" > README.md  # Ajoute un fichier README.md pour tester
+git add .             # Ajoute tous les fichiers au staging
+git commit -m "Initial commit"  # Crée un premier commit
+```
+
+
