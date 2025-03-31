@@ -49,3 +49,11 @@ Pour supprimer le dossier local, exécutez simplement :
 cd ..          # Revenez au dossier parent
 rm -rf test-repo  # Supprimez le dossier et son contenu
 ```
+
+. Cloner le repository public et l'ajouter à VS Code
+Cloner via CLI :
+Exécutez la commande suivante pour cloner le repository public mentionné :
+
+```bash
+git clone https://github.com/beanbat/thecastleinthecloudsinthesky.git
+```
