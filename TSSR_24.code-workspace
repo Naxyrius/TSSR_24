@@ -11,6 +11,9 @@
         },
         {
             "path": "../tssr-linux-debian-post-install"
+        },
+        {
+            "path": "../user_injector_ad"
         }
     ]
 }
