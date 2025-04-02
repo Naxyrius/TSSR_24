@@ -17,6 +17,9 @@
         },
         {
             "path": "../auto_deploy"
+        },
+        {
+            "path": "../naxyrius.github.io"
         }
     ]
 }
